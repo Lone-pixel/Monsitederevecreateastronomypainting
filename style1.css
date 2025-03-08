@@ -1,0 +1,76 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    color: #000000; /* Texte noir */
+    background-color: #304F9F; /* Bleu pour le fond */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8A71BC; /* Violet pour l'entête */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #304F9F; /* Bleu pour les titres */
+}
+
+nav {
+    background-color: #8A71BC;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #ffffff; /* Blanc pour les liens */
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0bf3fa; /* Bleu clair pour le survol */
+}
+
+nav a:visited {
+    color: #8A71BC; /* Violet pour les liens visités */
+}
+
+.content {
+    padding: 20px;
+    background-color: #304F9F; /* Bleu pour le contenu */
+    color: #000000;
+}
+
+footer {
+    background-color: #8A71BC;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.image-style {
+    border-radius: 25px;
+    width: 100%; /* Pour rendre l'image responsive */
+    max-width: 600px;
+    height: auto;
+}
+
+audio {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
